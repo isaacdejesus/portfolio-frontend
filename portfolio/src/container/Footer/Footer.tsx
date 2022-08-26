@@ -27,7 +27,8 @@ const Footer = () => {
     }
     return(
         <>
-            <h2 className="head-text"> Take a coffee chat with me</h2>
+            <h2 className="head-text">Contact me</h2>
+            {/*
             <div className="app__footer-cards">
                 <div className="app__footer-card">
                     <img src={images.email} alt="email"  />
@@ -38,6 +39,7 @@ const Footer = () => {
                     <a href="tel: +1 (123) 456-7883" className="p-text">1+ (123) 456 - 4774</a>
                 </div>
             </div>
+            */}
                 {!isFormSubmitted ?
             <div className="app__footer-form app__flex">
                 <div className="app__flex">
